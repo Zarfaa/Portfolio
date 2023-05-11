@@ -1,0 +1,16 @@
+.about__container{
+   display : flex;
+   justify-content: center;
+}
+
+.about__description{
+    margin-bottom: 5%;
+    justify-content: center;
+}
+
+.button {
+    justify-content: center;
+    margin-bottom: 10%;
+
+}
+

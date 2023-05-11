@@ -1,0 +1,23 @@
+.Contact__data{
+    margin-top: 20%;
+    grid-template-columns: repeat(2 , 350px);
+    column-gap: 3rem;
+    justify-content: center;
+}
+
+.contact__container{
+    justify-content: center;
+    margin-bottom: 20%;
+}
+
+.bx {
+    justify-content: center;
+}
+
+.description{
+    margin-top: 5%;
+}
+
+.mail{
+   color: rgb(8, 8, 8);
+}

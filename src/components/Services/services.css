@@ -1,0 +1,34 @@
+.services__container{
+    justify-content: center;
+}
+
+.services__content{
+    background-color: rgb(8, 8, 8);
+    color: white;
+    border: 1px solid rgba(242, 234, 243, 0.1);
+    padding: 2rem 4rem;
+    border-radius: 1.25rem;
+}
+
+.services__title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    text-align: center;
+    margin-bottom: var(--mb-1-5);
+}
+
+.services__box{
+    display: flex;
+    justify-content: center;
+}
+
+.services__group{
+    display: grid;
+    align-items: flex-start;
+    row-gap: 1rem;
+}
+
+.services__data{
+    display: flex;
+    column-gap: 0.5rem;
+}

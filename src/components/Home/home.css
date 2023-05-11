@@ -1,0 +1,39 @@
+.home__content{
+    display: flex;
+    justify-content: center;
+    margin-top: 20% ;
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+.home__Social{
+    display: flex;
+    column-gap: 5%;
+    justify-content: center;
+    margin-bottom: 20%;
+}
+
+.home__social-icon{
+    font-size: 1.25rem;
+    color: var(--title-color);
+}
+
+.home__social-icon:hover{
+    color: var(--title-color-dark);
+}
+
+.home__title{
+    font-size: var(--big-font-size);
+    margin-bottom: var(--mb-0-25);
+    color: rgb(8, 8, 8);
+}
+
+
+.home__subtitle{
+    position: relative;
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-normal);
+}
+
+
