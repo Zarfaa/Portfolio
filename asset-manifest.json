@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c44e40f2.css",
-    "main.js": "/Portfolio/static/js/main.f4988a3a.js",
-    "static/media/react_news_app.png": "/Portfolio/static/media/react_news_app.704a51bfd46d4360c87d.png",
-    "static/media/Zarfa_CV.pdf": "/Portfolio/static/media/Zarfa_CV.ca04c600d4abdd9ed140.pdf",
-    "index.html": "/Portfolio/index.html",
-    "main.c44e40f2.css.map": "/Portfolio/static/css/main.c44e40f2.css.map",
-    "main.f4988a3a.js.map": "/Portfolio/static/js/main.f4988a3a.js.map"
+    "main.css": "/Zarfaa.github.io/static/css/main.c44e40f2.css",
+    "main.js": "/Zarfaa.github.io/static/js/main.a2153bbc.js",
+    "static/media/react_news_app.png": "/Zarfaa.github.io/static/media/react_news_app.704a51bfd46d4360c87d.png",
+    "static/media/Zarfa_CV.pdf": "/Zarfaa.github.io/static/media/Zarfa_CV.ca04c600d4abdd9ed140.pdf",
+    "index.html": "/Zarfaa.github.io/index.html",
+    "main.c44e40f2.css.map": "/Zarfaa.github.io/static/css/main.c44e40f2.css.map",
+    "main.a2153bbc.js.map": "/Zarfaa.github.io/static/js/main.a2153bbc.js.map"
   },
   "entrypoints": [
     "static/css/main.c44e40f2.css",
-    "static/js/main.f4988a3a.js"
+    "static/js/main.a2153bbc.js"
   ]
 }
