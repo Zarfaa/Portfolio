@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.c44e40f2.css",
-    "main.js": "/Portfolio/static/js/main.674912eb.js",
+    "main.js": "/Portfolio/static/js/main.f0c5f7bb.js",
     "static/media/react_news_app.png": "/Portfolio/static/media/react_news_app.704a51bfd46d4360c87d.png",
     "static/media/Zarfa_CV.pdf": "/Portfolio/static/media/Zarfa_CV.ca04c600d4abdd9ed140.pdf",
     "index.html": "/Portfolio/index.html",
     "main.c44e40f2.css.map": "/Portfolio/static/css/main.c44e40f2.css.map",
-    "main.674912eb.js.map": "/Portfolio/static/js/main.674912eb.js.map"
+    "main.f0c5f7bb.js.map": "/Portfolio/static/js/main.f0c5f7bb.js.map"
   },
   "entrypoints": [
     "static/css/main.c44e40f2.css",
-    "static/js/main.674912eb.js"
+    "static/js/main.f0c5f7bb.js"
   ]
 }
