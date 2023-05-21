@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.c44e40f2.css",
-    "main.js": "/static/js/main.bd59e6f4.js",
-    "static/media/react_news_app.png": "/static/media/react_news_app.704a51bfd46d4360c87d.png",
-    "static/media/Zarfa_CV.pdf": "/static/media/Zarfa_CV.ca04c600d4abdd9ed140.pdf",
-    "index.html": "/index.html",
-    "main.c44e40f2.css.map": "/static/css/main.c44e40f2.css.map",
-    "main.bd59e6f4.js.map": "/static/js/main.bd59e6f4.js.map"
+    "main.css": "/Portfolio/static/css/main.c44e40f2.css",
+    "main.js": "/Portfolio/static/js/main.674912eb.js",
+    "static/media/react_news_app.png": "/Portfolio/static/media/react_news_app.704a51bfd46d4360c87d.png",
+    "static/media/Zarfa_CV.pdf": "/Portfolio/static/media/Zarfa_CV.ca04c600d4abdd9ed140.pdf",
+    "index.html": "/Portfolio/index.html",
+    "main.c44e40f2.css.map": "/Portfolio/static/css/main.c44e40f2.css.map",
+    "main.674912eb.js.map": "/Portfolio/static/js/main.674912eb.js.map"
   },
   "entrypoints": [
     "static/css/main.c44e40f2.css",
-    "static/js/main.bd59e6f4.js"
+    "static/js/main.674912eb.js"
   ]
 }
