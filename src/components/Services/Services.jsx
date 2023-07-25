@@ -10,7 +10,7 @@ let Services = () =>{
        <div className="services__container container grid">
        <div>
         <div className="services__content">
-           <h3 className="services__title">Frontend developement</h3>
+           <h3 className="services__title">Frontend development</h3>
            <div className="services__box">
            <div className="services__group">
 

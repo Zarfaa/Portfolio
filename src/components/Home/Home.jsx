@@ -5,7 +5,6 @@ import Info from "./Info"
 
 let Home = () => {
 return( 
-  
     <div className="home__content">
       <Info/>
       <Social/>   

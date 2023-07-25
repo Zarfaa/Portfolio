@@ -1,5 +1,5 @@
 import "./About.css"
-import CV from "../../assets/Zarfa_CV.pdf"
+import CV from "../../assets/CV_Zarfa Masood.pdf"
 
 let About = () => {
     return( <section className="about section" id="about">

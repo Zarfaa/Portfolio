@@ -1,25 +1,30 @@
-.section__content {
-    display: flex;
-  }
-  
-  .project__details {
-    flex: 1;
-    padding-left: 10%;
-  }
-  
-  .project__image {
-    flex: 1;
-    padding-right: 10%;
-  }
-  
-.project__title{
-    margin-top: 10%;
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
 }
 
-.project__description{
-margin-top: 5%;
-margin-bottom: 5%;
-  }
+.project__details {
+  flex: 1;
+  margin: 10px;
+}
+
+.project__description {
+  text-align: center;
+}
+
+.project__description h3,
+.project__description p {
+  margin: 0;
+}
+
+.project__description img {
+  display: block;
+  margin: 10px auto;
+  width: 600px;
+}
+
 
   .button {
     display: inline-block;

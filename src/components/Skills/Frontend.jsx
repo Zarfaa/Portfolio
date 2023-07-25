@@ -3,7 +3,7 @@ let Frontend = () =>{
 
     return(<div>
          <div className="skills__content">
-            <h3 className="skills__title">Frontend developer</h3>
+            <h3 className="skills__title">Frontend development</h3>
             <div className="skills__box">
             <div className="skills__group">
                 
@@ -11,7 +11,7 @@ let Frontend = () =>{
                 <i className='bx bx-badge-check'></i>
                 <div>
                     <h3 className="skills__name">HTML5</h3>
-                    <span className="skill__level">Intermediate</span>
+                    <span className="skill__level">Advanced</span>
                     <i className='bx bxl-html5'></i>
                 </div>
                 </div>
@@ -20,7 +20,7 @@ let Frontend = () =>{
                 <i className='bx bx-badge-check'></i>
                 <div>
                     <h3 className="skills__name">CSS3</h3>
-                    <span className="skill__level">Basic</span>
+                    <span className="skill__level">Intermediate</span>
                     <i className='bx bxl-css3'></i>
                 </div>
                 </div>
@@ -40,15 +40,6 @@ let Frontend = () =>{
                     <h3 className="skills__name">Bootstrap</h3>
                     <span className="skill__level">Basic</span>
                     <i className='bx bxl-bootstrap' ></i>
-                </div>
-                </div>
-
-                <div className="skills__data">
-                <i className='bx bx-badge-check'></i>
-                <div>
-                    <h3 className="skills__name">Git</h3>
-                    <span className="skill__level">Basic</span>
-                    <i className='bx bxl-git' ></i>
                 </div>
                 </div>
 
