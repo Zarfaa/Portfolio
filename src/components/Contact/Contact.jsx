@@ -4,12 +4,11 @@ import "./Contact.css"
 let Contact = () => {
     return (
         <section className="Contact__data" id = "contact">
-        <h2 className="section__title">Drop a message</h2>
        <div className="contact__container container grid">
-           <p className="description">Want to start a new Project? Hire Me</p>
-           <i className='bx bx-envelope'></i>
-           <h3 className="mail">zarfamasood924@gmail.com</h3>
-
+           <h3 id="subtitle">Want to start a new Project?</h3>
+           <p id="section__title">Drop a message
+            <p id="section__title"><i className='bx bx-envelope'></i>zarfamasood924@gmail.com</p> </p>
+          
        </div>
         </section>
         )

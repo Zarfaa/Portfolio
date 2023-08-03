@@ -11,11 +11,11 @@
 }
 
 .skills__title{
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
+    font-size: 3vw;
+    font-weight: 500;
     background-color: rgb(8, 8, 8);
     text-align: center;
-    margin-bottom: var(--mb-1-5);
+    margin-bottom:1rem
 }
 
 .skills__box{
@@ -32,4 +32,30 @@
 .skills__data{
     display: flex;
     column-gap: 0.5rem;
+}
+
+@media screen and (max-width:425px) {
+    .skills__title{
+        font-size: 4vw;
+        font-weight: var(--font-medium);
+        background-color: rgb(8, 8, 8);
+        text-align: center;
+        margin-bottom: var(--mb-1-5);
+    }
+
+    .skills__content{
+        background-color: rgb(8, 8, 8);
+        color: white;
+        border: 1px solid rgba(242, 234, 243, 0.1);
+        padding: 2rem 2.5rem;
+        border-radius: 1.25rem;
+    }
+
+    .skills__name{
+        font-size: 3.5vw;
+    }
+
+    .skill__level{
+        font-size: 3vw;
+    }
 }

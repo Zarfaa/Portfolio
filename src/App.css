@@ -6,7 +6,6 @@
   --header-height: 3rem;
 
   /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
@@ -18,7 +17,6 @@
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
 
-  /*.5rem = 8px | 1rem = 16px ...*/
   --big-font-size: 3.5rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
@@ -33,8 +31,7 @@
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  /*========== Margenes Bottom ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
+  /*========== Margin Bottom ==========*/
   --mb-0-25: 0.25rem;
   --mb-0-5: 0.5rem;
   --mb-0-75: 0.75rem;
@@ -50,18 +47,7 @@
   --z-modal: 1000;
 }
 
-/* Responsive typography */
-@media screen and (max-width: 992px) {
-  :root {
-    --big-font-size: 2.75rem;
-    --h1-font-size: 1.5rem;
-    --h2-font-size: 1.25rem;
-    --h3-font-size: 1rem;
-    --normal-font-size: 0.938rem;
-    --small-font-size: 0.813rem;
-    --smaller-font-size: 0.75rem;
-  }
-}
+
 
 /*=============== BASE ===============*/
 * {
@@ -83,9 +69,11 @@ textarea {
 }
 
 body {
-  background-color:rgb(142, 46, 187);
-  color: white;
+  background-color:white;
+  color: rgb(10, 10, 10);
+  overflow-x: hidden;
 }
+
 
 h1,
 h2,
@@ -120,13 +108,14 @@ img {
 
 .section__title {
   color: rgb(8, 8, 8);
-  font-size: var(--h1-font-size);
+  font-size: 6vw
 }
 
 .section__subtitle {
   display: block;
-  font-size: var(--small-font-size);
-  margin-bottom: 4rem;
+  font-size: 3vw;
+  margin-bottom: 2rem;
+  color: gray;
 }
 
 .section__title,

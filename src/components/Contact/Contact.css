@@ -7,16 +7,22 @@
 .contact__container{
     justify-content: center;
     margin-bottom: 20%;
+    color: black;
+    font-style: bold;
 }
 
-.bx {
-    justify-content: center;
+#subtitle{
+    color: black;
 }
 
-.description{
-    margin-top: 5%;
-}
+@media screen and (max-width:425px) {
+  #section__title{
+    font-size: 4vw;
+    color: black;
+    text-align: center;
+    font-weight: 500;
 
-.mail{
-   color: rgb(8, 8, 8);
+  }
+
+
 }

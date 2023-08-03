@@ -8,31 +8,40 @@ let Projects = () => {
       <h2 className="section__title">Projects</h2>
       <span className="section__subtitle">I have worked on</span>
 
-      <div class="projects-container">
-  <div class="project__description">
+      <div className="projects-container">
+
+  <div className="project">
+    <div className="project__description">
     <h3>Daily News</h3>
     <p>
       News app for daily news updates in different categories
       <br />
       Built with: React, Bootstrap
     </p>
-    <img class="image" src={Project_Preview} alt="Project Preview" />
-    <a href="https://github.com/Zarfaa/React_News_App" class="button" target="_blank" rel="noreferrer">
+    <a href="https://github.com/Zarfaa/React_News_App" className="button" target="_blank" rel="noreferrer">
       View Code
     </a>
+    </div>
+    <div className="project__img">
+    <img className="image" src={Project_Preview} alt="Project Preview" />
+    </div>
   </div>
 
-  <div class="project__description">
+  <div className="project">
+  <div className="project__img">
+    <img className="image" src={Project2} alt="Project Preview" />
+    </div>
+    <div className="project__description">
     <h3>Ecommerce Website</h3>
     <p>
       Fashion is a ReactJS Ecommerce Website
       <br />
       Built with: React Redux, Bootstrap, CSS
     </p>
-    <img class="image" src={Project2} alt="Project Preview" />
-    <a href="https://zarfaa.github.io/React_Ecommerce/" class="button" target="_blank" rel="noreferrer">
+    <a href="https://zarfaa.github.io/React_Ecommerce/" className="button" target="_blank" rel="noreferrer">
       Preview
     </a>
+    </div>
   </div>
 </div>
 

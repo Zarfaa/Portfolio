@@ -1,14 +1,23 @@
 .about__container{
    display : flex;
    justify-content: center;
+   margin: 5%;
 }
 
 .about__description{
-    margin-bottom: 5%;
     justify-content: center;
 }
 
 .button {
     justify-content: center;
+}
+
+@media screen and (max-width:425px) {
+    .about__container{
+        display : flex;
+        justify-content: center;
+        margin: 5%;
+        font-size: 3vw;
+     }
 }
 

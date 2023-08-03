@@ -4,12 +4,10 @@ import React from "react"
 let Header = () => {
     return (
         <header >
-
-            <nav className="nav">
                 <div className="nav">
 
                     <div className="nav__logo">
-                        <a href="index.html" className="nav__logo">Zarfa</a>
+                        <a href="index.html">Zarfa</a>
                     </div>
 
                     <div className="nav__menu">
@@ -59,7 +57,6 @@ let Header = () => {
                     </div>
 
                 </div>
-            </nav>
         </header>
 
     )

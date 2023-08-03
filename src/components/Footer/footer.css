@@ -2,6 +2,7 @@
   background-color: rgb(13, 14, 13);
   color: #fdf8f8;
     padding: 20px;
+    
   }
   
   .Footer__container p {
@@ -27,3 +28,12 @@
     text-decoration: underline;
   }
   
+  @media screen and (max-width:425px){
+    .Footer__container{
+      background-color: rgb(13, 14, 13);
+      color: #fdf8f8;
+        padding: 10px;
+        overflow-x: hidden;
+        font-size: 3vh;
+      }
+  }

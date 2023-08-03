@@ -8,7 +8,7 @@ let Services = () =>{
         <h2 className="section__title">Services</h2>
        <span className="section__subtitle">What i offer</span>
        <div className="services__container container grid">
-       <div>
+
         <div className="services__content">
            <h3 className="services__title">Frontend development</h3>
            <div className="services__box">
@@ -38,8 +38,7 @@ let Services = () =>{
                  <p>Get Intuitive and engaging user interfaces</p>
                 </div>
                </div>
-
-               </div>            
+        
         </div>
       </div>
       </div>

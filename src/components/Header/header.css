@@ -16,7 +16,7 @@
 .nav__toggle, 
 .nav__logo {
     color: #fdfafa;
-    font-weight: var(--font-medium);
+    font-weight: 500
 }
 
 .nav__list{
@@ -28,9 +28,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: var(--small-font-size);
-    color: var(--tittle-color);
-    font-weight: var(--font-medium);
+    font-size: 1vw;
+    color: white;
+    font-weight: 500;
     transition: .3s;
+}
+
+@media screen and (max-width:425px) {
+    .nav__list{
+        display: flex;
+        column-gap: 1vh;
+    }
+    .nav__logo, .nav__link, .nav__toggle{
+        font-size: 3vw;
+    }
 }
 
