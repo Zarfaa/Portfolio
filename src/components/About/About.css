@@ -1,7 +1,6 @@
 .about__container{
    display : flex;
    justify-content: center;
-   margin: 5%;
 }
 
 .about__description{
@@ -16,8 +15,15 @@
     .about__container{
         display : flex;
         justify-content: center;
-        margin: 5%;
         font-size: 3vw;
+     }
+}
+
+@media screen and (min-width: 1440px) {
+    .about__container{
+        display : flex;
+        justify-content: center;
+        font-size: 1.3vw;
      }
 }
 

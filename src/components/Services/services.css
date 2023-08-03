@@ -11,7 +11,7 @@
 }
 
 .services__title{
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: 500;
     text-align: center;
     margin-bottom: 1rem;
@@ -49,4 +49,13 @@
     .services__data p{
         font-size: 3vw;
     }
+}
+
+@media screen and (min-width: 1440px) {
+    .services__data h3{
+        font-size: 1.5vw;
+      }
+      .services__data p{
+          font-size: 1vw;
+      }
 }

@@ -108,12 +108,12 @@ img {
 
 .section__title {
   color: rgb(8, 8, 8);
-  font-size: 5vw
+  font-size: 3vw
 }
 
 .section__subtitle {
   display: block;
-  font-size: 2vw;
+  font-size: 1.5vw;
   margin-bottom: 2rem;
   color: gray;
 }

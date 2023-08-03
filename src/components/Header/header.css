@@ -13,10 +13,16 @@
     padding: 10px;
 }
 
-.nav__toggle, 
-.nav__logo {
-    color: #fdfafa;
-    font-weight: 500
+.nav__toggle {
+    color: white;
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.nav__logo a{
+    color: white;
+    font-weight: 700;
+    font-size: 1vw;
 }
 
 .nav__list{
