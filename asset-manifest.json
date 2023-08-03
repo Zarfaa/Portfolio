@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d6f22837.css",
-    "main.js": "/Portfolio/static/js/main.be79432f.js",
+    "main.css": "/Portfolio/static/css/main.41ba7e0d.css",
+    "main.js": "/Portfolio/static/js/main.ae2c99c0.js",
     "static/media/react_news_app.png": "/Portfolio/static/media/react_news_app.704a51bfd46d4360c87d.png",
     "static/media/react_ecommerce.png": "/Portfolio/static/media/react_ecommerce.ee4e026f2ff23e9357b1.png",
     "static/media/CV_Zarfa Masood.pdf": "/Portfolio/static/media/CV_Zarfa Masood.84b5de225774baa8a32d.pdf",
     "index.html": "/Portfolio/index.html",
-    "main.d6f22837.css.map": "/Portfolio/static/css/main.d6f22837.css.map",
-    "main.be79432f.js.map": "/Portfolio/static/js/main.be79432f.js.map"
+    "main.41ba7e0d.css.map": "/Portfolio/static/css/main.41ba7e0d.css.map",
+    "main.ae2c99c0.js.map": "/Portfolio/static/js/main.ae2c99c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6f22837.css",
-    "static/js/main.be79432f.js"
+    "static/css/main.41ba7e0d.css",
+    "static/js/main.ae2c99c0.js"
   ]
 }
