@@ -22,7 +22,7 @@
 }
 
 .home__title{
-    font-size: 10vw;
+    font-size: 7vw;
     margin-bottom: 0.5rem;
     color: rgb(8, 8, 8);
 }
@@ -30,7 +30,7 @@
 
 .home__subtitle{
     position: relative;
-    font-size: 5vw;
+    font-size: 3vw;
     font-weight: var(--font-normal);
     color: gray;
 }
