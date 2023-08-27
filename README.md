@@ -13,6 +13,6 @@ website created using ReactJs
 
  ## Feedback
  In case of queries contact me at 
- [email](zarfamasood924.gmail.com)
- [Linkedin](https://www.linkedin.com/in/zarfa-masood/)
+ [Linkedin](https://www.linkedin.com/in/zarfa-masood/)<br>
+  email: zarfamasood924.gmail.com
  
