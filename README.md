@@ -1,5 +1,5 @@
 ## Run Locally
-`#ffffff`Clone the project
+`Clone the project`
 
   git clone https://github.com/ssahibsingh/React_E-Commerce
 Go to the project directory
