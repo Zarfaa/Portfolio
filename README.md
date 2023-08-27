@@ -21,5 +21,5 @@ website created using ReactJs
  ## Feedback
  In case of queries contact me at 
  [Linkedin](https://www.linkedin.com/in/zarfa-masood/)<br>
-  `Email: zarfamasood924.gmail.com`
+  `Email: zarfamasood924@gmail.com`
  
