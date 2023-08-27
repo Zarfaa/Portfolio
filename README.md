@@ -17,6 +17,8 @@ website created using ReactJs
 
 # Preview
 [Live at](https://zarfaa.github.io/Portfolio/)
+![image](https://github.com/Zarfaa/Portfolio/assets/95335722/45b89b5c-f9d4-4837-973e-8aab16b2d80b)
+
 
  ## Feedback
  In case of queries contact me at 
