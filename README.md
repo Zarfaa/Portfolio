@@ -1,26 +1,18 @@
+# Portfolio Website
+website created using ReactJs
+
 ## Run Locally
-`Clone the project`
 
-  git clone https://github.com/ssahibsingh/React_E-Commerce
-Go to the project directory
+`Clone the project -- git clone https://github.com/Zarfaa/Portfolio`<br><br>
 
-  cd React_E-Commerce
-Install dependencies
+`Go to the project directory: cd Portfolio`<br><br>
 
-  npm install
-Start the server
+`Install dependencies: npm install`<br><br>
 
-  npm start
+`Start the server: npm start`<br><br>
 
-  ```json
-   // code for coloring
-```
-```html
-   // code for coloring
-```
-```js
-   // code for coloring
-```
-```css
-   // code for coloring
-```
+ ## Feedback
+ In case of queries contact me at 
+ [email](zarfamasood924.gmail.com)
+ [Linkedin](https://www.linkedin.com/in/zarfa-masood/)
+ 
