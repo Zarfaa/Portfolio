@@ -9,10 +9,17 @@ website created using ReactJs
 
 `Install dependencies: npm install`<br><br>
 
-`Start the server: npm start`<br><br>
+`Start the server: npm start`<br><be>
+
+# Tech Stack
+- React Js
+- CSS3
+
+# Preview
+[Live at](https://zarfaa.github.io/Portfolio/)
 
  ## Feedback
  In case of queries contact me at 
  [Linkedin](https://www.linkedin.com/in/zarfa-masood/)<br>
-  email: zarfamasood924.gmail.com
+  `Email: zarfamasood924.gmail.com`
  
