@@ -1,5 +1,5 @@
 ## Run Locally
-<span style="color:#ffffff">Clone the project<span>
+`#ffffff`Clone the project
 
   git clone https://github.com/ssahibsingh/React_E-Commerce
 Go to the project directory
