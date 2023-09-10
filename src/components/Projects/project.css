@@ -49,7 +49,7 @@
 }
 
 .section__title, .section__subtitle {
-  animation: animation2 1s forwards;
+  animation: animation2 7s forwards;
 }
 
 @keyframes animation2 {

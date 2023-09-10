@@ -47,7 +47,7 @@
 }
 
 .animate{
-    animation: animation 2s forwards;
+    animation: animation 5s forwards;
   }
   
   @keyframes animate{
