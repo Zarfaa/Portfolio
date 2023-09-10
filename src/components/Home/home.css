@@ -1,8 +1,6 @@
 .home__content{
-    display: flex;
     justify-content: center;
     margin: 15% ;
-    flex-direction: column;
     text-align: center;
 }
 
@@ -18,28 +16,45 @@
 }
 
 .home__social-icon:hover{
-    color:gray
+    color:rgb(87, 197, 201)
 }
 
 .home__title{
     font-size: 6vw;
     margin-bottom: 0.5rem;
-    color: rgb(8, 8, 8);
+    color: black;
+}
+
+.icon{
+    width: 2vw;
 }
 
 
 .home__subtitle{
     position: relative;
-    font-size: 2.5vw;
+    font-size: 2vw;
     font-weight: var(--font-normal);
-    color: gray;
+    color: white
 }
-
+.animation{
+    animation: animation 2s forwards;
+  }
+  
+  @keyframes animation {
+    from {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 2;
+        transform: translateY(-30%);
+    }
+  }
 @media screen and (max-width:425px) {
     .home__content{
         display: flex;
         justify-content: center;
-        margin-top: 40% ;
+        margin-top: 20% ;
         flex-direction: column;
         text-align: center;
     }

@@ -22,13 +22,6 @@ let Header = () => {
 
                             <div className="nav__item">
                                 <li >
-                                    <a href="#skills" className="nav__link">
-                                        <i className="uil uil-file-alt nav__icon"></i> Skills
-                                    </a>
-                                </li>
-                            </div>
-                            <div className="nav__item">
-                                <li >
                                     <a href="#services" className="nav__link">
                                         <i className="uil uil-briefcase-alt nav__icon"></i> Services
                                     </a>

@@ -1,61 +1,83 @@
+.section__title{
+    margin-top: 10%;
+}
 .services__container{
     justify-content: center;
+    display: flex;
+    gap: 3vw;
 }
 
 .services__content{
-    background-color: rgb(8, 8, 8);
-    color: white;
-    border: 1px solid rgba(242, 234, 243, 0.1);
+    color: black;
+    border: 2px solid rgb(87, 197, 201);
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
     padding: 2rem 4rem;
     border-radius: 1.25rem;
+    justify-content: center;
 }
 
+.services__content:hover{
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid white
+}
+
+.bullets{
+    list-style-type: circle;
+}
 .services__title{
     font-size: 2vw;
     font-weight: 500;
     text-align: center;
     margin-bottom: 1rem;
+    color: black;
+    margin-top: 5%;
 }
 
-.services__box{
-    display: flex;
-    justify-content: center;
+#icon{
+    margin-left: 5%;
+    width: 1.5vw;
+    margin-top: 2%;
+    height: 1.4vw;
 }
 
-.services__group{
-    display: grid;
-    align-items: flex-start;
-    row-gap: 1rem;
+#icon:hover{
+    color:rgb(87, 197, 201)
 }
 
-.services__data{
-    display: flex;
-    column-gap: 0.5rem;
-}
+.animate{
+    animation: animation 2s forwards;
+  }
+  
+  @keyframes animate{
+    from {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 2;
+        transform: translateY(-20%);
+    }
+  }
 
 @media screen and (max-width:425px) {
     .services__content{
-        background-color: rgb(8, 8, 8);
-        color: white;
-        border: 1px solid rgba(242, 234, 243, 0.1);
-        padding: 2rem 2rem;
+        color: black;
+        border: 2px solid rgb(87, 197, 201);
+        box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+        padding: 3rem;
         border-radius: 1.25rem;
-        margin: 0% 5%;
+        justify-content: center;
+    }
+    .services__container{
+        margin: 2% 5%;
+        
     }
 
-    .services__data h3{
-      font-size: 4vw;
-    }
-    .services__data p{
-        font-size: 3vw;
-    }
+.bullets{
+    font-size: 2vw;
+}
 }
 
-@media screen and (min-width: 1440px) {
-    .services__data h3{
-        font-size: 1.5vw;
-      }
-      .services__data p{
-          font-size: 1vw;
-      }
-}
+
