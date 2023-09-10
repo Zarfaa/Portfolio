@@ -1,5 +1,5 @@
 # Portfolio Website
-website created using ReactJs
+Personal Portfolio website created using ReactJs
 
 ## Run Locally
 
@@ -17,7 +17,8 @@ website created using ReactJs
 
 # Preview
 [Live at](https://zarfaa.github.io/Portfolio/)
-![image](https://github.com/Zarfaa/Portfolio/assets/95335722/45b89b5c-f9d4-4837-973e-8aab16b2d80b)
+![portfolio1](https://github.com/Zarfaa/Portfolio/assets/95335722/23eb2819-d989-4b59-8e1b-2e220ce9b0fd)
+
 
 
  ## Feedback
