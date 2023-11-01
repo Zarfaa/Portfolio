@@ -1,5 +1,5 @@
 import Project3 from "../../assets/react_ecommerce.png"
-import Project2 from "../../assets/react_news_app.png"
+import Project2 from "../../assets/portfolio_project.png"
 import Project1 from  "../../assets/resturant.png"
 
 let Web = () => {
@@ -28,11 +28,11 @@ let Web = () => {
   <div className="project__description">
   <h3>Daily News</h3>
   <p>
-    News app for daily news updates in different categories
+    Build Portfolio Website for a Digital Designer
     <br />
     Built with: React, Bootstrap
   </p>
-  <a href="https://github.com/Zarfaa/React_News_App" className="button" target="_blank" rel="noreferrer">
+  <a href="https://begottendesigns.com/" className="button" target="_blank" rel="noreferrer">
   View Project
   </a>
   </div>

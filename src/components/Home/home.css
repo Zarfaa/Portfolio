@@ -21,7 +21,6 @@
 
 .home__title{
     font-size: 6vw;
-    margin-bottom: 0.5rem;
     color: black;
 }
 
@@ -31,11 +30,10 @@
 
 
 .home__subtitle{
-    position: relative;
     font-size: 2vw;
-    font-weight: var(--font-normal);
     color: white
 }
+
 .animation{
     animation: animation 2s forwards;
   }

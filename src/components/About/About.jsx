@@ -1,5 +1,5 @@
 import "./About.css"
-import CV from "../../assets/CV_Zarfa Masood.pdf"
+import CV from "../../assets/ZarfaMasood_CV.pdf"
 import Img from "../../assets/hero_img.jpg"
 import HTML from "../../assets/icons8-html-48.png"
 import CSS from "../../assets/icons8-css-48.png"
