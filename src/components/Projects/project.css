@@ -9,20 +9,36 @@
 
 .project__description {
   padding: 1rem;
+  margin-top: 7%;
 }
 
 .project {
   justify-content: center;
   display: flex;
   gap: 1vw;
+  background-color: rgb(93, 198, 204);
+  padding: 5%;
+  border-radius: 25px;
 }
 
+.project:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -4px;
+  border: 1px solid white
+}
 .project__img {
   flex: 0.9;
 }
 
 .project h3 {
   color: black;
+}
+.project span{
+  background-color:  rgb(191, 239, 241);
+  border-radius: 25px;
+  font-size: 1vw;
+  padding: 1.5%;
 }
 
 .project img {
@@ -32,13 +48,14 @@
 
 .button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 2%;
   background-color: #000;
   box-shadow: 0px 4px 8px rgba(17, 17, 17, 0.2);
   color: #f0f0f0;
   text-decoration: none;
   border: none;
-  border-radius: 4px;
+  border-radius: 15px;
+  margin-top: 5%;
 }
 
 .button:hover {

@@ -1,39 +1,42 @@
 import Project3 from "../../assets/react_ecommerce.png"
-import Project2 from "../../assets/portfolio_project.png"
-import Project1 from  "../../assets/resturant.png"
-
+import Project2 from "../../assets/project2.png"
+import Project1 from  "../../assets/project1.png"
+import Project4 from "../../assets/Project4.png"
+import Project5 from "../../assets/project5.png"
 let Web = () => {
 
     return(<>
      <div className="projects-container">
         
-     <div className="project">
+
+<div className="project">
 <div className="project__img">
-  <img className="image" src={Project1} alt="Project Preview" />
+  <img className="image3" src={Project5} alt="Project Preview" />
   </div>
   <div className="project__description">
-  <h3>Resturant Website</h3>
+  <h3>PetVet</h3>
   <p>
-    Foody is a ReactJS Resturant Website
+    PetVet is a MERN based Web application
     <br />
-    Built with: React , Bootstrap, CSS
+    <span>React</span> <span>Redux</span> <span>Chakra UI</span> <span>NodeJS</span>
   </p>
-  <a href="https://resturant-website-3mgoesxj0-zarfa.vercel.app/" className="button" target="_blank" rel="noreferrer">
-    View Project
+  <a href="https://petvet.ai/login" className="button" target="_blank" rel="noreferrer">
+    View Project <i class='bx bxs-right-arrow-alt'></i>
   </a>
   </div>
 </div>
 
+
 <div className="project">
   <div className="project__description">
-  <h3>Daily News</h3>
+  <h3>Portfolio</h3>
   <p>
-    Build Portfolio Website for a Digital Designer
+    Portfolio Website Build for a Digital Designer
     <br />
-    Built with: React, Bootstrap
+    <span>React</span> <span>Bootstrap</span>
   </p>
   <a href="https://begottendesigns.com/" className="button" target="_blank" rel="noreferrer">
-  View Project
+  View Project <i class='bx bxs-right-arrow-alt'></i>
   </a>
   </div>
   <div className="project__img">
@@ -46,18 +49,51 @@ let Web = () => {
   <img className="image3" src={Project3} alt="Project Preview" />
   </div>
   <div className="project__description">
-  <h3>Ecommerce Website</h3>
+  <h3>Fashion</h3>
   <p>
-    Fashion is a ReactJS Ecommerce Website
+    ReactJS Ecommerce Website
     <br />
-    Built with: React Redux, Bootstrap, CSS
+    <span>React</span> <span>Redux</span> <span>Bootstrap</span>
   </p>
   <a href="https://zarfaa.github.io/React_Ecommerce/" className="button" target="_blank" rel="noreferrer">
-    View Project
+    View Project <i class='bx bxs-right-arrow-alt'></i>
   </a>
   </div>
 </div>
 
+<div className="project">
+  <div className="project__description">
+  <h3>Trek Buddy</h3>
+  <p>
+    Trip Planning Website Build With MERN
+    <br />
+    <span>React</span> <span>Redux</span> <span>NodeJS</span> <span>MongoDB</span> <span>Bootstrap</span>
+  </p>
+  <a href="https://trek-buddy.vercel.app/" className="button" target="_blank" rel="noreferrer">
+  View Project <i class='bx bxs-right-arrow-alt'></i>
+  </a>
+  </div>
+  <div className="project__img">
+  <img className="image2" src={Project4} alt="Project Preview" />
+  </div>
+</div>
+
+<div className="project">
+<div className="project__img">
+  <img className="image" src={Project1} alt="Project Preview" />
+  </div>
+  <div className="project__description">
+  <h3>Foody</h3>
+  <p>
+    Foody is a ReactJS Resturant Website
+    <br />
+    <span>React</span> <span>Bootstrap</span>
+  </p>
+  <a href="https://resturant-website-3mgoesxj0-zarfa.vercel.app/" className="button" target="_blank" rel="noreferrer">
+    View Project <i class='bx bxs-right-arrow-alt'></i>
+  </a>
+  </div>
+</div>
 
 </div>
     </>)

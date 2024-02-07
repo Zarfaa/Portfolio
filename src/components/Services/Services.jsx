@@ -1,7 +1,9 @@
 import "./services.css"
-import Web from "../../assets/icons8-website-50.png"
-import Content from "../../assets/icons8-writing-50.png"
-import Fiverr from "../../assets/fiverr-icon.png"
+import Frontend from "../../assets/icons8-react-48.png"
+import Node from "../../assets/icons8-nodejs-48.png"
+import MERN from "../../assets/icons8-code-48.png"
+import Fiverr from "../../assets/icons8-fiverr-48.png"
+import Github from "../../assets/icons8-github-48.png"
 let Services = () => {
 
     return (
@@ -11,16 +13,16 @@ let Services = () => {
             <div className="services__container">
 
                 <div className="services__content">
-                    <img src={Web} alt="web icon" />
+                    <img className= "service_icon " src={Frontend} alt="web icon" />
                     <h3 className="services__title">Frontend Development</h3>
                     <ul className="bullets">
-                        <li>Ecommerce Solutions</li>
-                        <li>Portfolio Websites</li>
-                        <li>Restaurant Websites</li>
+                        <li>Responsive Web Design</li>
+                        <li>Single Page Applications</li>
+                        <li>Animation and Interaction</li>
                         <li>ReactJS Websites</li>
                     </ul>
                     <a href="https://github.com/Zarfaa" className="home__social-icon" target="_blank" rel="noreferrer">
-                        <i className="uil uil-github"></i>
+                    <img src={Github} alt="github" id="icon" />
                     </a>
                     <a href="https://www.fiverr.com/zarfamasood/" className="home__social-icon" target="_blank">
                         <img src={Fiverr} alt="fiverr" id="icon" />
@@ -28,22 +30,38 @@ let Services = () => {
                 </div>
 
                 <div className="services__content">
-                    <img src={Content} alt="writing" />
-                    <h3 className="services__title">Content Writing</h3>
+                    <img className= "service_icon " src={Node} alt="Node" />
+                    <h3 className="services__title">Backend Development</h3>
                     <ul className="bullets">
-                        <li>Website content writing</li>
-                        <li>Blog Post Writing</li>
-                        <li>Ghost Writing</li>
-                        <li>SEO writing</li>
+                        <li>Real-time Applications</li>
+                        <li>Payment Gateways</li>
+                        <li>API Integeration</li>
+                        <li>NodeJS Websites</li>
                     </ul>
-                    <a href="https://medium.com/@zarfamasood" className="home__social-icon" target="_blank">
-                        <i class="fa-brands fa-medium"></i>
+                    <a href="https://github.com/Zarfaa" className="home__social-icon" target="_blank" rel="noreferrer">
+                    <img src={Github} alt="github" id="icon" />
                     </a>
                     <a href="https://www.fiverr.com/zarfamasood/" className="home__social-icon" target="_blank">
                         <img src={Fiverr} alt="fiverr" id="icon" />
                     </a>
                 </div>
 
+                <div className="services__content">
+                    <img className= "service_icon " src={MERN} alt="mern" />
+                    <h3 className="services__title">FullStack Development</h3>
+                    <ul className="bullets">
+                        <li>Ecommerce Solutions</li>
+                        <li>Portfolio Websites</li>
+                        <li>Custom Web Solutions</li>
+                        <li>MERN Solutions</li>
+                    </ul>
+                    <a href="https://github.com/Zarfaa" className="home__social-icon" target="_blank" rel="noreferrer">
+                    <img src={Github} alt="github" id="icon" />
+                    </a>
+                    <a href="https://www.fiverr.com/zarfamasood/" className="home__social-icon" target="_blank">
+                        <img src={Fiverr} alt="fiverr" id="icon" />
+                    </a>
+                </div>
             </div>
         </section>
 
